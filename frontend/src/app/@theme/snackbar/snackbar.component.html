@@ -1,0 +1,13 @@
+<div class="row">
+    <div [ngSwitch]="data.type">
+      <img *ngSwitchCase="'info'" src="assets/icons/ic_info.svg" alt="info icon">
+      <img *ngSwitchCase="'success'" src="assets/icons/ic_success.svg" alt="success icon">
+      <img *ngSwitchCase="'warning'" src="assets/icons/ic_warning.svg" alt="warning icon">
+      <img *ngSwitchCase="'error'" src="assets/icons/ic_failed_error.svg" alt="error icon">
+    </div>
+  
+    <div class="snackbar-text">
+      {{ data.message }}
+    </div>
+</div>
+  
