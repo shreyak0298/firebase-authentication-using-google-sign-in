@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "Mahek Chhabra",
+  "author": "Shreya K",
   "license": "ISC",
   "dependencies": {
     "@google-cloud/datastore": "^6.1.0",
